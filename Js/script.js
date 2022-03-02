@@ -13,7 +13,7 @@ const displayPhone = brands => {
     // console.log(brands)
     brands.forEach(brand => {
         const div = document.createElement('div');
-        div.classList.add('col');
+        div.classList.add('col-12');
         div.innerHTML = ` <div  class="card mt-5 ">
         <img src="${brand.image}" class="card-img-top" alt="...">
         <div class="card-body">
